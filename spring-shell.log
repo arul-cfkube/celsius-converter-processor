@@ -1,0 +1,28 @@
+// dataflow 1.2.0.RELEASE log opened at 2020-05-18 00:24:09
+exit
+// dataflow 1.2.0.RELEASE log closed at 2020-05-18 00:25:47
+// dataflow 1.2.0.RELEASE log opened at 2020-05-18 00:39:07
+app register --type processor --name convertToCelsius --uri file:///Users/arulv/Downloads/celsius-convertor-processortarget/celsius-convertor-processor-0.0.1-SNAPSHOT.jar 
+// [failed] stream create --name convertToCelsiusStream --definition "http  --port=9090 | convertToCelsius | log" --deploy
+// [failed] app register --type processor --name convertToCelsius --uri file:///Users/arulv/Downloads/celsius-convertor-processortarget/celsius-convertor-processor-0.0.1-SNAPSHOT.jar 
+// [failed] stream create --name convertToCelsiusStream --definition "http  --port=9090 | convertToCelsius | log" --deploy
+// [failed] stream create --name convertToCelsiusStream --definition "http  --port=9090 | convertToCelsius | log" --deploy
+app register --type processor --name convertToCelsius --uri file:///Users/arulv/Downloads/celsius-convertor-processortarget/celsius-convertor-processor-0.0.1-SNAPSHOT.jar --force
+// [failed] stream create --name convertToCelsiusStream --definition "http  --port=9090 | convertToCelsius | log" --deploy
+// [failed] app register --type processor --name convertToCelsius --uri file://Users/arulv/Downloads/celsius-convertor-processortarget/celsius-convertor-processor-0.0.1-SNAPSHOT.jar --force
+// [failed] app register --type processor --name convertToCelsius --uri file://Users/arulv/Downloads/celsius-convertor-processor/target/celsius-convertor-processor-0.0.1-SNAPSHOT.jar --force
+// [failed] app register --type processor --name convertToCelsius --uri file:///Users/arulv/Downloads/celsius-convertor-processor/target/celsius-convertor-processor-0.0.1-SNAPSHOT.jar --force
+app register --type processor --name convertToCelsius1 --uri file:///Users/arulv/Downloads/celsius-convertor-processor/target/celsius-convertor-processor-0.0.1-SNAPSHOT.jar --force
+// [failed] stream create --name convertToCelsiusStream --definition "http  --port=9090 | convertToCelsius1 | log" --deploy
+app register --type processor --name convertToCelsius2 --uri file://Users/arulv/Downloads/celsius-convertor-processor/target/celsius-convertor-processor-0.0.1-SNAPSHOT.jar --force
+// [failed] stream create --name convertToCelsiusStream --definition "http  --port=9090 | convertToCelsius2 | log" --deploy
+exit
+// dataflow 1.2.0.RELEASE log closed at 2020-05-18 01:13:27
+// dataflow 1.2.0.RELEASE log opened at 2020-05-18 01:14:33
+app register --type processor --name convertToCelsius3 --uri file:/Users/arulv/Downloads/celsius-convertor-processor/target/celsius-convertor-processor-0.0.1-SNAPSHOT.jar --force
+// [failed] stream create --name convertToCelsiusStream3 --definition "http  --port=9090 | convertToCelsius3 | log" --deploy
+app register --type processor --name convertToCelsius4 --uri file:///Users/arulv/Downloads/celsius-convertor-processor/target/celsius-convertor-processor-0.0.1-SNAPSHOT.jar --force
+// [failed] stream create --name convertToCelsiusStream4 --definition "http  --port=9090 | convertToCelsius4 | log" --deploy
+stream list
+exit
+// dataflow 1.2.0.RELEASE log closed at 2020-05-18 01:19:05
